@@ -1,0 +1,18 @@
+<p>My name: {{ myName }}</p>
+<p>Friends:</p>
+<div class="list-group">
+  <a *ng-for="#i, #name of names; #i = index" href="#" class="list-group-item">
+    {{name}}
+    <button (click)="removeFriend(i)" type="button" class="btn btn-link btn-sm pull-right">
+      <span class="label label-default label-pill">X Delete</span>
+    </button>
+  </a>
+</div>
+<br/>
+<br/>
+<div class="form-inline pull-right" >
+  <fieldset class="form-group">
+    <input #todotext type="text" class="form-control">
+    <button (click)="addFriend(todotext.value)" type="button" class="btn btn-primary">Add Friend</button>
+  </fieldset>
+</div>

@@ -1,0 +1,19 @@
+{
+  "name": "mr-angular2-quickstart",
+  "version": "0.1.0",
+  "description": "Just trying Angular2 out!",
+  "main": "app.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "mrincon",
+  "license": "MIT",
+  "dependencies": {
+    "angular2": "2.0.0-alpha.45",
+    "bootstrap": "git@github.com:twbs/bootstrap.git#v4-dev"
+  },
+  "devDependencies": {
+    "live-server": "0.8.2"
+  }
+}
