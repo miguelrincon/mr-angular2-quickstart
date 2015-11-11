@@ -4,6 +4,7 @@
   "description": "Just trying Angular2 out!",
   "main": "app.js",
   "scripts": {
+    "tsc": "tsc -p heroes -w",
     "start": "live-server"
   },
   "keywords": [],
@@ -11,9 +12,11 @@
   "license": "MIT",
   "dependencies": {
     "angular2": "2.0.0-alpha.45",
-    "bootstrap": "git@github.com:twbs/bootstrap.git#v4-dev"
+    "bootstrap": "git@github.com:twbs/bootstrap.git#v4-dev",
+    "systemjs": "^0.19.5"
   },
   "devDependencies": {
-    "live-server": "0.8.2"
+    "live-server": "0.8.2",
+    "typescript": "^1.6.2"
   }
 }
